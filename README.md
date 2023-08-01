@@ -26,7 +26,7 @@
 **You can always edit the code to add more shortcuts!**
 
 ## Whats coming in the future?
-- A logo for the app. **(COMPLETED)**
+- ~A logo for the app. **(COMPLETED)**~
 - Icons of the shortcuts
 - Details about the apps
 - "Add your own shortcut" feature
