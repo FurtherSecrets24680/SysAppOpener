@@ -16,6 +16,9 @@
 12. Private Character Editor (Eudcedit)
 13. Group Policy Editor (For Windows Pro users only)
 14. Services
+15. Registry Editor
+16. Winver (About Windows)
+17. MsInfo32 (System Information)
 
 **You can always edit the code to add more shortcuts!**
 
