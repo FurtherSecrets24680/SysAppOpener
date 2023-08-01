@@ -11,6 +11,6 @@ Included Shortcuts to -
 7. Disk Management
 8. Event Viewer
 9. Performance Monitor
-10. Iexpress
+ 10. Iexpress
 
 You can always edit the code to add more shortcuts!
