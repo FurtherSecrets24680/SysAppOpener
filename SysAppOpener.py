@@ -1,4 +1,5 @@
 import tkinter as tk
+from PIL import Image, ImageTk
 import os
 
 def open_notepad():
@@ -43,8 +44,21 @@ def open_gpedit():
 def open_services():
     os.system("services.msc")
 
+def open_regedit():
+    os.system("regedit.exe")
+
+def open_winver():
+    os.system("winver.exe")
+
+def open_msinfo32():
+    os.system("msinfo32.exe")
+    
 root = tk.Tk()
 root.title("SysAppOpener")
+
+img = Image.open("logo.ico")
+photo = ImageTk.PhotoImage(img)
+root.iconphoto(False, photo)
 
 label = tk.Label(root, text="Click the button to open the desired application:")
 label.pack()
@@ -90,5 +104,14 @@ button13.pack()
 
 button14 = tk.Button(root, text="Open Services", command=open_services)
 button14.pack()
+
+button15 = tk.Button(root, text="Open Registry Editor", command=open_regedit)
+button15.pack()
+
+button16 = tk.Button(root, text="Open Winver (About Windows)", command=open_winver)
+button16.pack()
+
+button17 = tk.Button(root, text="Open MsInfo32 (System Information)", command=open_msinfo32)
+button17.pack()
 
 root.mainloop()
