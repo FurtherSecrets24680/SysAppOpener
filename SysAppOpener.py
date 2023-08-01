@@ -13,6 +13,9 @@ def open_mspaint():
 def open_task_manager():
     os.system("taskmgr.exe")
 
+def open_powershell():
+    os.system("powershell.exe")
+
 def open_calculator():
     os.system("calc.exe")
 
@@ -31,8 +34,17 @@ def open_perfmon():
 def open_iexpress():
     os.system("iexpress.exe")
 
+def open_eudcedit():
+    os.system("eudcedit.exe")
+
+def open_gpedit():
+    os.system("gpedit.msc")
+
+def open_services():
+    os.system("services.msc")
+
 root = tk.Tk()
-root.title("Useful Application Utility")
+root.title("SysAppOpener")
 
 label = tk.Label(root, text="Click the button to open the desired application:")
 label.pack()
@@ -66,5 +78,17 @@ button9.pack()
 
 button10 = tk.Button(root, text="Open IExpress", command=open_iexpress)
 button10.pack()
+
+button11 = tk.Button(root, text="Open Powershell", command=open_powershell)
+button11.pack()
+
+button12 = tk.Button(root, text="Open Private Character Editor", command=open_eudcedit)
+button12.pack()
+
+button13 = tk.Button(root, text="Open Group Policy Editor (Windows Pro Only)", command=open_gpedit)
+button13.pack()
+
+button14 = tk.Button(root, text="Open Services", command=open_services)
+button14.pack()
 
 root.mainloop()
