@@ -1,2 +1,2 @@
 # SysAppOpener
-My first project on Github! It's a simple python app to open essential and useful built-in Windows System32 applications easily. No need to search for it or go to the folder to find it!
+**SysAppOpener** is a python app that lets you access essential and useful Windows System32 applications with ease. No more searching or browsing for the tools you need. Just launch SysAppOpener and choose from a list of useful system apps. It’s fast, simple and convenient.
